@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/projectdiscovery/httpx v1.2.6
+	github.com/projectdiscovery/retryablehttp-go v1.0.8
 	github.com/projectdiscovery/tlsx v1.0.3
 )
 
@@ -51,14 +52,13 @@ require (
 	github.com/nwaples/rardecode v1.1.0 // indirect
 	github.com/pierrec/lz4 v2.6.0+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/projectdiscovery/asnmap v0.0.1 // indirect
+	github.com/projectdiscovery/asnmap v1.0.0 // indirect
 	github.com/projectdiscovery/blackrock v0.0.0-20220628111055-35616c71b2dc // indirect
 	github.com/projectdiscovery/cdncheck v0.0.4-0.20220413175814-b47bc2d578b1 // indirect
 	github.com/projectdiscovery/clistats v0.0.9 // indirect
 	github.com/projectdiscovery/dsl v0.0.3 // indirect
 	github.com/projectdiscovery/fastdialer v0.0.19 // indirect
 	github.com/projectdiscovery/fdmax v0.0.4 // indirect
-	github.com/projectdiscovery/fileutil v0.0.3 // indirect
 	github.com/projectdiscovery/goconfig v0.0.0-20210804090219-f893ccd0c69c // indirect
 	github.com/projectdiscovery/goflags v0.1.6 // indirect
 	github.com/projectdiscovery/gologger v1.1.7 // indirect
@@ -69,9 +69,7 @@ require (
 	github.com/projectdiscovery/ratelimit v0.0.4 // indirect
 	github.com/projectdiscovery/rawhttp v0.0.8-0.20210814181734-56cca67b6e7e // indirect
 	github.com/projectdiscovery/reflectutil v0.0.0-20210804085554-4d90952bf92f // indirect
-	github.com/projectdiscovery/retryabledns v1.0.17 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.3-0.20220506110515-811d938bd26d // indirect
-	github.com/projectdiscovery/sliceutil v0.0.1 // indirect
+	github.com/projectdiscovery/retryabledns v1.0.20 // indirect
 	github.com/projectdiscovery/stringsutil v0.0.2 // indirect
 	github.com/projectdiscovery/utils v0.0.4-0.20230102120019-c7a04e2045be // indirect
 	github.com/projectdiscovery/wappalyzergo v0.0.76 // indirect
