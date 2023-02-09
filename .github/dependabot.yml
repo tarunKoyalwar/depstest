@@ -23,7 +23,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    target-branch: "dev"
+      time: "16:35"
+    target-branch: "main"
     commit-message:
       prefix: "chore"
       include: "scope"
@@ -33,15 +34,4 @@ updates:
     # Allow only direct updates for projectdiscovery
     - dependency-name: "*projectdiscovery*"
       dependency-type: "all"
-
-  # Maintain dependencies for docker
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    target-branch: "dev"
-    commit-message:
-      prefix: "chore"
-      include: "scope"
-    labels:
-      - "Type: Maintenance"
+      
