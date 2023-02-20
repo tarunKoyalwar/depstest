@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/projectdiscovery/httpx v1.2.6
+	github.com/projectdiscovery/retryablehttp-go v1.0.3-0.20220506110515-811d938bd26d
 	github.com/projectdiscovery/tlsx v1.0.3
 )
 
@@ -70,11 +71,10 @@ require (
 	github.com/projectdiscovery/rawhttp v0.0.8-0.20210814181734-56cca67b6e7e // indirect
 	github.com/projectdiscovery/reflectutil v0.0.0-20210804085554-4d90952bf92f // indirect
 	github.com/projectdiscovery/retryabledns v1.0.17 // indirect
-	github.com/projectdiscovery/retryablehttp-go v1.0.3-0.20220506110515-811d938bd26d // indirect
 	github.com/projectdiscovery/sliceutil v0.0.1 // indirect
 	github.com/projectdiscovery/stringsutil v0.0.2 // indirect
 	github.com/projectdiscovery/utils v0.0.4-0.20230102120019-c7a04e2045be // indirect
-	github.com/projectdiscovery/wappalyzergo v0.0.76 // indirect
+	github.com/projectdiscovery/wappalyzergo v0.0.83 // indirect
 	github.com/prometheus/client_golang v1.14.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect
 	github.com/prometheus/common v0.39.0 // indirect
